@@ -1,0 +1,21 @@
+.selected {
+    background-color: #495057;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+span, p {
+    color: #212529; /* Dark text color for readability */
+    font-size: 14px; /* Suitable font size */
+    font-weight: bold; /* Bold for emphasis */
+    text-align: center; /* Center text */
+}
+
+.block-line {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}

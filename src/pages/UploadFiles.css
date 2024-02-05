@@ -1,0 +1,41 @@
+p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    margin-top: 10px; /* Space above the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* File List Styling */
+ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+    font-size: 14px;
+}
+
+li button {
+    margin-left: 10px; /* Space between file name and button */
+    background-color: #dc3545; /* Red background for delete button */
+}
+
+li button:hover {
+    background-color: #bd2130; /* Darker red on hover */
+}
